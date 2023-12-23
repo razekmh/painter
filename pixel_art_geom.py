@@ -15,7 +15,9 @@ count_of_cols = int(screen_height / size_of_cell)
 sqr_width = sqr_height = size_of_cell
 badding = int(size_of_cell / 5)
 
-screen = pygame.display.set_mode((screen_width, screen_height), pygame.FULLSCREEN)
+screen = pygame.display.set_mode((screen_width, screen_height),
+                                #   pygame.FULLSCREEN
+                                  )
 
 
 def draw_two_rects():
