@@ -1,3 +1,4 @@
 painterenv/*
 paintenv/*
 cred.py
+*.pyc
