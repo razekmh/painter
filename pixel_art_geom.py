@@ -50,7 +50,7 @@ def create_dict_of_squares():
 
 
 def write_numbers_on_squares(dict_of_squares):
-    font = pygame.font.SysFont("Arial", 10)
+    font = pygame.font.SysFont("Arial", 15)
     for square_index, square_info in dict_of_squares.items():
         screen.blit(
             font.render(str(int(square_index)), True, (255, 0, 0)),
